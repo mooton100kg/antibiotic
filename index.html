@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+	<head>
+		<title>Antibiotic</title>
+	</head>
+	<body>
+		<h1>Antibiotic & bacteria</h1>
+		<form id='user-input1'>
+			<label>Enter ATB : </label>
+			<input type="text" id="input-field1" list="suggestions1" autocomplete="off" required>
+			<datalist id="suggestions1"></datalist>
+			<button type="submit">Submit</button>
+		</form>
+		<br>
+		<form id='user-input2'>
+			<label>Enter Bac : </label>
+			<input type="text" id="input-field2" list="suggestions2" autocomplete="off" required>
+			<datalist id="suggestions2"></datalist>
+			<button type="submit">Submit</button>
+		</form>
+		<br><hr><br>
+		<div id='output'></div>
+
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</body>
+</html>
+
